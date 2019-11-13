@@ -32,7 +32,7 @@ let computerSelection = () => {
 
     }
 
-    question = prompt('Please enter your choice');
+    question = prompt('Please enter your choice of either Rock, Paper, or Scissors!');
     choice = question.toLowerCase();
     console.log(roundplay(computerSelection(), choice));
     console.log(`Your score is ${playerCount}`);
